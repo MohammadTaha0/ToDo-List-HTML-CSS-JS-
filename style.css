@@ -1,0 +1,43 @@
+#myTable tr th,#myTable tr td{
+    border: 1px solid rgb(216, 215, 215) !important;
+
+}
+button{
+    transition: .5s !important; 
+}
+button:hover{
+    background-color: rgb(14, 255, 227) !important;
+    color: black !important;
+    border: 1px solid transparent !important;
+}
+label{
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(62, 62, 62);
+    padding-left: 5px;
+}
+#submit:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.th{
+    font-weight: 600 !important;
+}
+#check_div{
+    display: none;
+    transition: 2s;
+    font-size: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    background-color: rgba(3, 3, 3, 0.476);
+    user-select: none;
+    font-weight: 900;
+}
+#check_div i{
+    margin-top: 25%;
+    user-select: none;
+}
+
+
